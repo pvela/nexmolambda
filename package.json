@@ -1,0 +1,26 @@
+{
+  "name": "nexmolambda",
+  "author": "Prabhu Velayutham",
+  "version": "0.1.0",
+  "main": "index",
+  "keywords": [
+    "sms",
+    "nexmo",
+    "aws",
+    "lambda"
+  ],
+  "homepage": "https://github.com/pvela/nexmolambda",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pvela/nexmolambda.git"
+  },
+  "description": "A lambda function to send sms using nexmo API",
+  "contributors": [
+    "pvela"
+  ],
+  "dependencies": {
+    "async": "~0.9.0",
+    "aws-sdk": "~2.1.23",
+    "easynexmo": "~0.6.0"
+  }
+}
